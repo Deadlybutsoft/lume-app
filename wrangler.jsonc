@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "lume-app",
+  "pages_build_output_dir": ".vercel/output/static",
+  "compatibility_date": "2026-04-02",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "observability": {
+    "enabled": true
+  }
+}

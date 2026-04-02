@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+.next
+workers/.wrangler
+workers/node_modules
+
+# OpenNext
+.open-next

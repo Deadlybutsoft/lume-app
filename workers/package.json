@@ -1,0 +1,13 @@
+{
+  "name": "lume-workers",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev -c wrangler.toml",
+    "deploy": "wrangler deploy -c wrangler.toml"
+  },
+  "devDependencies": {
+    "wrangler": "^4.79.0"
+  }
+}
