@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import setupHero from '../../assets/74291eae0bfbe8e9f2a4b601c6b9c6c02b0f05c0.png';
+import setupHero from '../../assets/cloudflare_setup.png';
 
 export function LandingPage() {
   const heroSrc = typeof setupHero === 'string' ? setupHero : setupHero.src;
